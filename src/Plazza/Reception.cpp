@@ -5,3 +5,7 @@ Reception::Reception(float speedMultip, int nbCooks, int restockTime) {
     this->nbCooks = nbCooks;
     this->restockTime = restockTime;
 }
+
+void Reception::run(void) {
+    std::cout << "Reception running" << std::endl;
+}
