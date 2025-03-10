@@ -2,8 +2,7 @@
 
 int plazza(float speedMultip, int nbCooks, int restockTime) {
 	Reception *reception = new Reception(speedMultip, nbCooks, restockTime);
-	// reception->run();
-	(void)reception;
+	reception->run();
 	return 0;
 }
 
